@@ -319,7 +319,6 @@ cite a:hover, .article a:hover{
 }
 article.qué_es_despacho42 img{
     border-radius: 10px;
-    width: 15%;
 }
 input[type=text],input[type=email],textarea {
     width:100%;
@@ -437,6 +436,11 @@ Contenedores del sitio
         grid-template-columns: 1fr;
         grid-gap: 30px;    
     }
+    .qué_es_despacho42 img{
+        object-fit: contain;
+        height: 10vh;
+        width: auto; 
+    }
 
 }  
 /*Tablet*/
@@ -480,7 +484,9 @@ Contenedores del sitio
         display: flex;
     }
     .qué_es_despacho42 img{
-        height: fit-content;   
+        object-fit: contain;
+        height: 10vh;
+        width: auto; 
     }
     .text_qué_es_despacho42{
         padding-left: 5%;
@@ -528,7 +534,9 @@ Contenedores del sitio
         display: flex;
     }
     .qué_es_despacho42 img{
-        height: fit-content;   
+        object-fit: contain;
+        height: 10vh;
+        width: auto;
     }
     .text_qué_es_despacho42{
         padding-left: 5%;
