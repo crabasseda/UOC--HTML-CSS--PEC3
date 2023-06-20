@@ -289,9 +289,9 @@ Despacho 42
 
 .separator {
     width: 1px;
-    height: 20px; /* Ajusta la altura de la barra vertical según tus necesidades */
-    background-color: var(--primary-color); /* Ajusta el color de la barra vertical según tus necesidades */
-    margin: 0 10px; /* Ajusta los márgenes según tus necesidades */
+    height: 20px;
+    background-color: var(--primary-color); 
+    margin: 0 10px;
 }
 
 h2.despacho{
