@@ -317,7 +317,10 @@ cite a:hover, .article a:hover{
  article.qué_es_despacho42 ul li{
     color:var(--contrast-color)
 }
-article.qué_es_despacho42 img{
+.qué_es_despacho42 img{
+    object-fit: contain;
+    height: 10vh;
+    width: auto;
     border-radius: 10px;
 }
 input[type=text],input[type=email],textarea {
@@ -436,11 +439,6 @@ Contenedores del sitio
         grid-template-columns: 1fr;
         grid-gap: 30px;    
     }
-    .qué_es_despacho42 img{
-        object-fit: contain;
-        height: 10vh;
-        width: auto; 
-    }
 
 }  
 /*Tablet*/
@@ -482,11 +480,6 @@ Contenedores del sitio
     }
     .qué_es_despacho42{
         display: flex;
-    }
-    .qué_es_despacho42 img{
-        object-fit: contain;
-        height: 10vh;
-        width: auto; 
     }
     .text_qué_es_despacho42{
         padding-left: 5%;
@@ -533,11 +526,7 @@ Contenedores del sitio
     .container_despacho42, .qué_es_despacho42{
         display: flex;
     }
-    .qué_es_despacho42 img{
-        object-fit: contain;
-        height: 10vh;
-        width: auto;
-    }
+
     .text_qué_es_despacho42{
         padding-left: 5%;
     }
